@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app1nginxaks 
-          image: aksdevopsacr.azurecr.io/app1nginxaks  #using the wizard to configure pipeline image name pass will overide this one
+          image: myaksdevopacr.azurecr.io/custom2aksnginxapp1  #using the wizard to configure pipeline image name pass will overide this one
           ports:
           - containerPort: 80
